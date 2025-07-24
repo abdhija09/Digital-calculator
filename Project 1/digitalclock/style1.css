@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(201, 186, 186);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border: 4px solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background: white;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
